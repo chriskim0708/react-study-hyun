@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Post from "./Post";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Post />
     </div>
   );
 }
 
 export default App;
+
+/**
+ * 중첩된 컴포넌트 만들기
+ * 4분할된 컴포넌트 만들기
+ * 각각 분할된 화면을 2분할로 다시 컴포넌트 만들기
+ */
